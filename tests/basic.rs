@@ -42,7 +42,6 @@ fn success_restart_game() {
             break;
         }
     }
-    
 
     game.send(ADMIN, PebblesAction::Turn(5));
     system.run_next_block();
