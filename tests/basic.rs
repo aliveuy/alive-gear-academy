@@ -5,7 +5,7 @@ const ADMIN: u64 = 100;
 const MAX_NUMBER_OF_TURNS: u32 = 10;
 const MAX_PEBBLES_PER_TURN: u32 = 5;
 const PEBBLES_COUNT: u32 = 35;
-const GAS: u128 = 1000000000000;
+const GAS: u128 = 10000000000000000000000000;
 
 #[test]
 fn success_restart_game() {
